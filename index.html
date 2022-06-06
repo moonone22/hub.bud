@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="login_Box">
+        <div class="log_InForm" >
+            <form id="login-form" class="hidden">
+                <div class="LineBox">
+                    <input
+                        class="login"
+                        required
+                        maxlength="15"
+                        type="text"
+                        placeholder="what is your name?">
+                </div>
+                <button class="login_button" class="hidden">Log In</button>
+            </form>
+        </div>
+    </div>
+    <div class="Logout_BOX">
+        <h1 id="greeting" class="hidden"></h1>
+        <form>
+            <input>
+            <button id="LOG_OUT" class="hidden">로그아웃</button>
+        </form>
+    </div>
+    
+    <script src="login.js/script.js"></script>
+</body>
+</html>
